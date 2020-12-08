@@ -7,7 +7,7 @@
 
 				function main() {
 					/* Connect to the server */
-					ws = io();
+					ws = io('https://socketio-pub-sub.herokuapp.com/'');
 
 					ws.on('connect', () => {
 						/* Join the "room" of canvas 1 */
